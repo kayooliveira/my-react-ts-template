@@ -5,7 +5,7 @@ import {
     Route
 } from 'react-router-dom'
 import NotFound from '../../Components/NotFound'
-import Index from '../../pages/index'
+import Index from '../../Pages/Index/index'
 // import RequireAuth from './RequireAuth' // Uncomment if needs authenticated routes
 
 /**
