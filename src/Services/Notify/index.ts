@@ -11,19 +11,19 @@ import { toast } from 'react-toastify'
  */
 
 export const Notify = {
-    success: (data = '') => {
-        data ? toast.success(data) : toast.success('Concluído!')
+    success: (message?: string) => {
+        message ? toast.success(message) : toast.success('Success')
     },
 
-    error: (data = '') => {
-        data ? toast.success(data) : toast.success('Erro!')
+    error: (message?: string) => {
+        message ? toast.error(message) : toast.error('An error occurred!')
     },
 
-    warning: (data = '') => {
-        data && toast.success(data)
+    warning: (message?: string) => {
+        message && toast.warning(message)
     },
 
-    info: (data = '') => {
-        data && toast.success(data)
+    info: (message?: string) => {
+        message && toast.info(message)
     }
 }
