@@ -1,6 +1,6 @@
 {
   "name": "kayooliveira-template",
-  "description": "ViteJS | React + Typescript + ESLint + Prettier",
+  "description": "ViteJS | React + Typescript + ESLint + Prettier + Storybook",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
