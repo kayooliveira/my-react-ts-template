@@ -23,7 +23,9 @@ const Routes: React.FC = () => {
         <>
             <Router>
                 <Switch>
-                    <Route path="/" element={<Index />} />
+                    <Route path="/">
+                        <Route index element={<Index />} />
+                    </Route>
                     <Route path="*" element={<NotFound />} />
                 </Switch>
             </Router>
