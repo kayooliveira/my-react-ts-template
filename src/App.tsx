@@ -1,5 +1,6 @@
 import React from 'react'
 import Routes from './Services/Routes'
+import { cssGlobal } from './Services/Styled'
 /**
  *
  * @version 0.0.1
@@ -11,7 +12,12 @@ import Routes from './Services/Routes'
  */
 
 const App: React.FC = () => {
-    return <Routes />
+    return (
+        <>
+            {cssGlobal()}
+            <Routes />
+        </>
+    )
 }
 
 export default App
